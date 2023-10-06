@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url(/images/hellokittyachtergrond.png);
+    background-image: url('images/hellokittyachtergrond.png');
     background-size: cover;
     color: white;
     padding: 30px 0;
