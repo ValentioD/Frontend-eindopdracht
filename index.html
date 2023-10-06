@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Sanrio.png" alt="Sanrio logo">
+        </div>
+        <div class="nav-container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#characters">Characters</a>
+                <a href="#shop">Shop</a>
+                <a href="#events">Upcoming Events</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="featured-character" id="characters">
+            <div class="container">
+                <h2>Featured Character</h2>
+                <a href="https://en.wikipedia.org/wiki/Hello_Kitty" target="_blank">
+                <img src="images/Hello_Kitty.webp" alt="Hello Kitty">
+                </a>
+                <p>Hello Kitty is a beloved character from Sanrio.</p>
+            </div>
+        </section>
+        
+        <section class="popular-characters">
+            <div class="container">
+                <h2>Popular Characters</h2>
+                <section class="character">
+                    <a href="https://en.wikipedia.org/wiki/Pompompurin" target="_blank">
+                        <img src="images/pompompurin.webp" alt="Pompompurin">
+                    </a>
+                    <p>Pompompurin is a cute yellow dog-like Sanrio character, recognizable by his beret, who loves pudding and radiates kindness.</p>
+                </section>
+                <section class="character">
+                    <a href="https://en.wikipedia.org/wiki/My_Melody" target="_blank">
+                        <img src="images/Mymelodyfront2D.webp" alt="My Melody">
+                    </a>
+                    <p>My Melody is a sweet and iconic Sanrio character, a rabbit who wears a red hood, and is known for her love of baking and music.</p>
+                </section>
+                <section class="character">
+                    <a href="https://en.wikipedia.org/wiki/Kuromi" target="_blank">
+                        <img src="images/Sanrio_Characters_Kuromi_Image016.webp" alt="Kuromi">
+                    </a>
+                    <p>
+                        Kuromi is a mischievous and edgy Sanrio character, recognized by her black attire, skull-themed accessories, and devilish charm.</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="shop" id="shop">
+            <div class="container">
+                <h2>Shop Sanrio Goodies</h2>
+        
+                <section class="product">
+                    <img src="images/Kuromi mug.webp" alt="Kuromi mug">
+                    <h3>Sanrio Mug</h3>
+                    <p>Price: $10.99</p>
+                    <p>Description: Enjoy your morning coffee in this adorable Sanrio-themed mug.</p>
+                    
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    
+                    <button style="text-align: right;">Add to Cart</button>
+                </section>
+        
+                <section class="product">
+                    <img src="images/cinnamoroll.jpg" alt="Cinnamoroll Plush">
+                    <h3>Sanrio Plush Toy</h3>
+                    <p>Price: $19.99</p>
+                    <p>Description: Cuddle up with your favorite Sanrio character with this soft plush toy.</p>
+                    
+                    <div class="rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+
+                    <button style="text-align: right;">Add to Cart</button>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <section class="events" id="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <section class="event">
+                <img src="images/fan meetup.jpg" alt="Fan meetup event">
+                <h3>Sanrio Fan Meetup</h3>
+                <p>Date: October 15, 2023</p>
+                <p>Location: Sanrio Store, 123 Main Street, Cityville</p>
+                <p>Description: Join us for a fun-filled day at the Sanrio Fan Meetup! Meet fellow Sanrio fans, enjoy games, activities, and shop for your favorite Sanrio merchandise. It's a day you won't want to miss!</p>
+            </section>
+            <section class="event">
+                <img src="images/auction.jpg" alt="Auction">
+                <h3>Sanrio Charity Auction</h3>
+                <p>Date: November 5, 2023</p>
+                <p>Location: City Convention Center, 456 Charity Lane, Townsville</p>
+                <p>Description: Join us for a special Sanrio Charity Auction where you can bid on exclusive Sanrio collectibles, artwork, and memorabilia. All proceeds will go to a local children's charity. Help make a difference while adding rare Sanrio treasures to your collection!</p>
+            </section>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <section class="form-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </section>
+                <section class="form-group">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </section>
+                <section class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </section>
+                <section class="form-group">
+                    <label for="woonplaats">Residence</label>
+                    <input type="text" id="woonplaats" name="woonplaats">
+                </section>
+                <section class="form-group">
+                    <label for="geboortedatum">Birth date</label>
+                    <input type="date" id="geboortedatum" name="geboortedatum">
+                </section>
+                <section class="form-group">
+                    <label for="onderwerp">Subject</label>
+                    <input type="text" id="onderwerp" name="onderwerp" required>
+                </section>
+                <section class="form-group">
+                    <label for="bericht">Message</label>
+                    <textarea id="bericht" name="bericht" rows="4" required></textarea>
+                </section>
+                <section class="form-group">
+                    <label for="inschrijven">Subscribe to receive news</label>
+                    <input type="checkbox" id="inschrijven" name="inschrijven">
+                </section>
+                <section class="form-group">
+                    <label for="akkoord">I agree with the Terms & Conditions</label>
+                    <input type="checkbox" id="akkoord" name="akkoord" required>
+                </section>
+                <button type="submit">Verzenden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <section class="footer-logo">
+                    <img src="images/Sanrio.png" alt="Sanrio logo">
+                </section>
+                <section class="footer-text">
+                    <p>&copy; 2023 Sanrio. All rights reserved.</p>
+                </section>
+            </div>
+            <section class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Cookie policy</a>
+                <a href="#contact">Contact</a>
+            </section>
+        </div>
+
+        <section class="buttonToTop">
+            <a href="#top">☝️</a>
+        </section>
+
+    </footer>
+</body>
+</html>
